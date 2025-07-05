@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kusaq Kanki</title>
+  <link rel="icon" href="iconodepestaña.jpg" type="image/png" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css" />
+</head>
+<body>
+
+  <!-- HEADER CON FRANJA Y MENÚ -->
+  <header class="header">
+    <!-- Franja superior -->
+    <div class="franja-slogan">
+      MODA QUE HONRA NUESTRAS MONTAÑAS - PERÚ
+    </div>
+
+    <!-- Franja fija con login y menú -->
+    <div class="franja-fija">
+      <div class="franja-login d-flex justify-content-end align-items-center gap-3">
+        <a href="#"><span class="icon">👤</span> iniciar sesión</a>
+        <span class="divider">|</span>
+        <a href="#"><span class="icon">👤</span> crear cuenta</a>
+      </div>
+
+      <div class="franja-menu d-flex justify-content-between align-items-center flex-wrap">
+        <div class="d-flex align-items-center gap-5 flex-wrap">
+          <img src="sumaq kanki.png" alt="Sumaq Kanki Logo" class="logo" />
+          <button class="menu-toggle d-lg-none" id="btnMenu">&#9776;</button>
+        </div>
+
+        <nav class="nav d-flex gap-4 flex-row flex-wrap" id="menuNav">
+          <a class="nav-link" href="#">Inicio</a>
+          <a class="nav-link" href="#">Catálogo</a>
+          <a class="nav-link" href="#">Blog y Cultura</a>
+          <a class="nav-link" href="#">Sobre Nosotros</a>
+        </nav>
+      </div>
+    </div>
+
+    <!-- Imagen de fondo con texto -->
+    <div class="hero-section" id="hero-section">
+      <div class="overlay text-center text-white">
+        <h1 class="main-title">MODA - ANDINA</h1>
+        <p class="sub-title">Cultura que se viste, tradición que perdura</p>
+        <a href="#" class="btn btn-cultura">Conoce nuestra cultura</a>
+        <div class="dots mt-4">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- MAIN: Contenido Principal -->
+  <main>
+<section class="descubre-andino">
+  <div class="contenido-descubre">
+    <div class="texto-lado">
+      <h2>Diseño que conecta con nuestras raíces</h2>
+      <p>
+        El mundo andino no solo se lleva, se habita. En cada una de nuestras prendas se esconde una historia: la sabiduría milenaria del telar, la armonía con la tierra, la mirada profunda de nuestros ancestros.
+      </p>
+      <p>
+        Nos inspiramos en los trazos geométricos de Sacsayhuamán, en la sabiduría agrícola de los andenes de Moray y en la fuerza espiritual de Machu Picchu. Estas formas no solo adornan, comunican.
+      </p>
+      <p>
+        Tejemos con fibras naturales y tintes ancestrales, respetando los ciclos de la Pachamama. Nuestras piezas son elaboradas a mano por mujeres que heredan, con cada hilo, la historia de su comunidad.
+      </p>
+      <p class="mensaje-final">
+        Vestir Sumaq Kanki es llevar contigo una parte del Perú profundo. Es conocer, valorar y representar lo nuestro con orgullo.
+      </p>
+      <a href="#" class="btn-aprender">Explorar la colección</a>
+    </div>
+    <div class="imagen-lado">
+      <img src="mujer andina tejiendo.jpg " alt="Mujer andina tejiendo" >
+    </div>
+  </div>
+</section>
+
+    <section class="tarjetas-cultura">
+      <div class="container d-flex flex-wrap justify-content-center gap-4">
+        <div class="tarjeta">
+          <img src="tar1.png" alt="Artesana" class="img-tarjeta">
+          <div class="texto-tarjeta">Trabajamos con artesanos de Calca–Lamay–Chumpe.</div>
+        </div>
+        <div class="tarjeta">
+          <img src="sostenibilidad.jpg" alt="Sostenibilidad" class="img-tarjeta">
+          <div class="texto-tarjeta">Comprometidos con la sostenibilidad y autenticidad.</div>
+        </div>
+        <div class="tarjeta">
+          <img src="machupichu.jpg" alt="Machu Picchu" class="img-tarjeta">
+          <div class="texto-tarjeta">Inspirada en nuestra cultura, tradición y historia.</div>
+        </div>
+      </div>
+    </section>
+
+<section class="coleccion-prendas">
+  <div class="intro-prendas">
+    <h2>Colección - Prendas</h2>
+    <p>Prendas que fusionan el espíritu de las danzas tradicionales del Cusco con un estilo urbano. Colores vivos, tejidos andinos y movimiento en cada detalle.</p>
+  </div>
+
+  <div class="tarjetas-prendas">
+    <div class="tarjeta-prenda">
+      <img src="polera-watiti.jpg" alt="Chompa Andina">
+      <div class="contenido-prenda">
+        <h3>Chompa Tradicional</h3>
+        <p>Tejida a mano con lana natural, ideal para clima fresco y estilo moderno.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+
+    <div class="tarjeta-prenda">
+      <img src="cadigan.jpg" alt="Falda con bordados">
+      <div class="contenido-prenda">
+        <h3>Falda de Bordados</h3>
+        <p>Bordados inspirados en la iconografía andina con colores intensos y alegres.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+
+    <div class="tarjeta-prenda">
+      <img src="raymi.jpg" alt="Poncho moderno">
+      <div class="contenido-prenda">
+        <h3>Poncho Urbano</h3>
+        <p>Un clásico reinventado: ligero, versátil y lleno de identidad cultural.</p>
+        <a href="#" class="btn-ver">Ver más</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+    <section class="suscripcion">
+  <h2>Elige tu experiencia</h2>
+  <div class="planes">
+    <div class="tarjeta gratis">
+      <h3>Gratis</h3>
+      <ul>
+        <li>Acceso limitado al catálogo</li>
+        <li>Contenido cultural básico</li>
+        <li>Diseños con marca de agua</li>
+        <li>Publicidad visible</li>
+      </ul>
+      <p class="precio">S/ 0</p>
+      <a href="#" class="btn-suscribir">Empezar ahora</a>
+    </div>
+    <div class="tarjeta premium">
+      <h3>Premium</h3>
+      <ul>
+        <li>Catálogo completo</li>
+        <li>Contenido cultural exclusivo</li>
+        <li>Diseños en alta calidad</li>
+        <li>Sin anuncios</li>
+      </ul>
+      <p class="precio">S/ 12.90 / mes</p>
+      <a href="#" class="btn-suscribir destacado">Suscribirme</a>
+    </div>
+  </div>
+</section>
+<br>
+<br>
+<br>
+<section class="descubre-kanki">
+  <div class="contenido-kanki">
+    <div class="texto-kanki">
+      <h2>Descubre el alma de los Andes</h2>
+      <p>Cada prenda cuenta una historia, cada diseño nace de una tradición. En Sumaq Kanki, te invitamos a conocer nuestras raíces y a llevar la cultura con orgullo. ¡Explora, aprende y conecta con lo ancestral!</p>
+      <a href="#" class="btn-kanki">Ver Colección</a>
+    </div>
+    <div class="imagen-kanki">
+      <img src="imagen-andina.jpg" alt="Moda andina">
+    </div>
+  </div>
+</section>
+    
+
+    <section class="mision-vision-valores">
+      <div class="container text-center">
+        <h2 class="titulo-mvv">Nuestra Esencia</h2>
+        <div class="row justify-content-center g-4 mt-4">
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="tarjeta-mvv">
+              <img src="mision.jpg" alt="Misión" class="img-mvv">
+              <h3>Misión</h3>
+              <p>Impulsar la moda andina como símbolo de identidad cultural y sostenibilidad, conectando tradición con diseño contemporáneo.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="tarjeta-mvv">
+              <img src="vision.jpg" alt="Visión" class="img-mvv">
+              <h3>Visión</h3>
+              <p>Ser reconocidos globalmente como una marca que honra y preserva la herencia textil andina, con impacto social y cultural positivo.</p>
+            </div>
+          </div>
+          <div class="col-12 col-sm-6 col-md-4">
+            <div class="tarjeta-mvv">
+              <img src="valores.jpg" alt="Valores" class="img-mvv">
+              <h3>Valores</h3>
+              <p>Respeto por la cultura, sostenibilidad, innovación y compromiso social.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-superior">
+      <div class="container">
+        <div class="enlaces-legales">
+          <a href="#">Términos de servicio</a>
+          <a href="#">Políticas de Privacidad</a>
+          <a href="#">Política de envíos</a>
+          <a href="#">Política de reembolso</a>
+          <a href="#">Información del contacto</a>
+          <a href="#">Libro de reclamaciones</a>
+        </div>
+        <div class="redes-sociales">
+          <a href="#"><img src="instagram.jpg" alt="Instagram"></a>
+          <a href="#"><img src="facebook.jpg" alt="Facebook"></a>
+          <a href="#"><img src="tiktok.jpg" alt="TikTok"></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-inferior">
+      <p>© 2025, Pukllas Andean Fashion · <a href="#">Tecnología de Shopify</a></p>
+    </div>
+  </footer>
+
+  <!-- SCRIPT DEL SLIDER -->
+  <script>
+    const backgrounds = ["slide1.jpg", "slide2.jpg", "slide3.jpg"];
+    let index = 0;
+    const heroSection = document.getElementById("hero-section");
+    const dots = document.querySelectorAll(".dot");
+
+    function changeSlide() {
+      heroSection.style.backgroundImage = `url('${backgrounds[index]}')`;
+      dots.forEach((dot, i) => {
+        dot.classList.toggle("active", i === index);
+      });
+      index = (index + 1) % backgrounds.length;
+    }
+
+    changeSlide();
+    setInterval(changeSlide, 5000);
+  </script>
+
+  <!-- SCRIPT DEL MENÚ RESPONSIVE -->
+  <script>
+    document.getElementById("btnMenu").addEventListener("click", function () {
+      const menu = document.getElementById("menuNav");
+      menu.classList.toggle("show");
+    });
+  </script>
+</body>
+</html>
